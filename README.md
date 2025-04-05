@@ -1,6 +1,6 @@
 # 💳 Subscription Management System
 
-A backend project for managing real users, real money, and real subscription logic with a secure and scalable architecture.
+A backend project for managing real users and real subscription logic with a secure and scalable architecture.
 
 ## 🚀 Tech Stack
 
