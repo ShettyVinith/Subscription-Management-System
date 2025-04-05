@@ -1,5 +1,3 @@
-# Subscription-Management-System
-
 # 💳 Subscription Management System
 
 A backend project for managing real users, real money, and real subscription logic with a secure and scalable architecture.
