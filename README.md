@@ -29,5 +29,32 @@ A backend project for managing real users, real money, and real subscription log
    ```bash
    git clone https://github.com/ShettyVinith/Subscription-Management-System.git
    cd Subscription-Management-System
+   
+2. **Install dependencies**
+   ```bash
+   npm install
+
+3. **Setup environment variables Create a .env file in the root directory and add:**
+   ```env
+   PORT=5000
+   MONGO_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   UPSTASH_REDIS_URL=your_upstash_url
+   ARCJET_API_KEY=your_arcjet_key
+   EMAIL_USER=your_email
+   EMAIL_PASS=your_email_password
+   
+4. **Start the development server**
+   ```bash
+   npm run dev
+
+## 🛡️ Security
+- Helmet for secure HTTP headers
+- Arcjet for abuse prevention and rate limiting
+- Middleware-based error handling and auth verification
+- CORS enabled
+- Input validation and sanitization
+
+
 
    
