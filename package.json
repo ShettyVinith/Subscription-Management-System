@@ -1,0 +1,31 @@
+{
+  "name": "subdub",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@arcjet/node": "^1.0.0-beta.5",
+    "@upstash/workflow": "^0.2.12",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "~1.4.4",
+    "dayjs": "^1.11.13",
+    "debug": "~2.6.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^8.13.1",
+    "morgan": "~1.9.1",
+    "nodemailer": "^6.10.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
