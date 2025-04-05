@@ -48,16 +48,16 @@ index.js → entry point
 
 ### 1. Clone the repository
 
-```bash
 git clone https://github.com/ShettyVinith/Subscription-Management-System.git
 cd Subscription-Management-System
 
-2. Install dependencies
+### 2. Install dependencies
 bash
 Copy
 Edit
 npm install
-3. Setup environment variables
+
+### 3. Setup environment variables
 Create a .env file in the root directory and add:
 
 env
@@ -70,11 +70,10 @@ UPSTASH_REDIS_URL=your_upstash_url
 ARCJET_API_KEY=your_arcjet_key
 EMAIL_USER=your_email
 EMAIL_PASS=your_email_password
-4. Start the development server
-bash
-Copy
-Edit
+
+### 4. Start the development server
 npm run dev
+
 🧪 API Testing
 Use Postman or Thunder Client to test the following routes:
 
